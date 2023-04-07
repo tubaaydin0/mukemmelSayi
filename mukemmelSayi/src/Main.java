@@ -1,6 +1,8 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
+        /*Klavyeden girilen bir sayının mükemmel sayı olup/olmadığını bulan ve sayı mükemmel sayı ise ekrana “mükemmel sayıdır.” değilse “mükemmel sayı değildir.”
+        ifadelerini ekrana yazan program*/
         int sayi,carp=1,tempSayi=0;
         Scanner inp= new Scanner(System.in);
         System.out.println("Bir sayı giriniz: ");
